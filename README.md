@@ -1,4 +1,2 @@
-# blog
+readme only main files is enough to showcase the show 
 
-click here 
-https://yadavtusharambika.github.io/blog/
