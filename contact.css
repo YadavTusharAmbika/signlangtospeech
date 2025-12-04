@@ -1,0 +1,57 @@
+.contact-content {
+  height: 91vh;
+  margin-top: 8px;
+  padding: 1px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-content::after {
+  content: "";
+  background-image: url(../img/11.svg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 1.15;
+  border-radius: 46px;
+  z-index: -45;
+}
+
+.container{
+  max-width: 80%; 
+  padding: 1px; 
+  margin: auto;
+}
+
+input, textarea {
+  border: 2px solid black;
+  border-radius: 37px;
+  outline: none;
+  font-size: 18px;
+  width: 51%;
+  margin: 5px 5px;
+  padding: 7px;
+}
+
+form{
+  display: table;
+  align-items: center;
+  justify-content: center;
+  flex-direction: inherit;
+}
+
+.btn{
+  color: white;
+  background: purple;
+  padding: 0px 9px;
+  font-size: 20px;
+  border: 3px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+ 
+}
+
+.bg{
+  width: 100%;
+  position: absolute;
+}
